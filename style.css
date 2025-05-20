@@ -59,7 +59,6 @@ body {
 
 .leftcontent ul li:hover {
     width: 110%;
-    font-weight: 600;
     background-color: #1A1A1A;
 }
 
@@ -79,17 +78,16 @@ body {
 .rightcontent {
     width: 85vw;
     height: auto;
-    background-color: rgb(60, 105, 189);
     margin-left: 230px;
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
 }
 
+
 .storySection {
     width: 39.375rem;
     height: 7rem;
-    background-color: red;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -104,15 +102,105 @@ body {
     padding: 5px;
 }
 
-.PersonProfile{
-    width: 24.438rem;
-    height: 50vh;
-    background-color: yellow;
-}
+
 
 .reels {
     width: 39.375rem;
-    height: 84vh;
-    background-color: cadetblue;
+    height: auto;
+    margin-top: 20px;
+    padding: 2px 0px;
+}
 
+.ReelProfile {
+    width: 29.125rem;
+    height: 3rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.reelProfileImg {
+    position: absolute;
+    left: 5px;
+}
+
+.reelProfileImg img {
+    width: 40px;
+    border-radius: 25px;
+
+}
+
+.ReelProfileName {
+    position: absolute;
+    left: 60px;
+}
+
+.ReelProfileHambuger {
+    position: absolute;
+    right: 5px;
+}
+
+.ReelsContent {
+    width: 29.125rem;
+    height: 100vh;
+    margin: auto;
+}
+
+.ReelsContent video {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(253, 253, 253, 0.095);
+}
+
+.likeShare {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.ProNameAndLikes {
+    width: inherit;
+    height: inherit;
+    margin: 30px 80px;
+}
+
+.ProNameAndLikes p {
+    margin: 20px 0px;
+}
+
+/* Profiel code starts here */
+
+.PersonProfile {
+    width: 24.438rem;
+    height: 50vh;
+    margin: 40px 100px 0px 0px;
+    /* background-color: rgb(130, 99, 208); */
+}
+
+.ProfileTem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.personProfilepic img {
+    width: 40px;
+    border-radius: 25px;
+}
+
+.personProfilepic {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.suggested {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
 }
