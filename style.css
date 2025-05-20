@@ -15,22 +15,26 @@ body {
     color: white;
 }
 
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
 .leftcontent {
     width: 15vw;
     height: 100vh;
-    /* background-color: crimson; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* padding: 5px; */
+    border-right: 1px solid #262626;
     position: fixed;
 }
 
-.logo{
+.logo {
     width: 96%;
     height: 100px;
-    /* background-color: rgb(128, 219, 9); */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,12 +44,11 @@ body {
 
 .leftcontent ul li {
     list-style: none;
-    width: 120%;
+    width: 110%;
     height: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: rgb(95, 146, 180); */
     margin: 0px 10px 10px 10px;
     gap: 15px;
     cursor: pointer;
@@ -54,12 +57,62 @@ body {
     transition: all 0.2s ease-in-out 0s;
 }
 
-.leftcontent ul li:hover{
+.leftcontent ul li:hover {
+    width: 110%;
     font-weight: 600;
     background-color: #1A1A1A;
 }
 
-#Profilepic{
+#Profilepic {
     width: 25px;
     border-radius: 25px;
+}
+
+.downNav {
+    width: 72%;
+    height: 17.2vh;
+    margin-top: 20px;
+}
+
+/* RightContent */
+
+.rightcontent {
+    width: 85vw;
+    height: auto;
+    background-color: rgb(60, 105, 189);
+    margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+
+.storySection {
+    width: 39.375rem;
+    height: 7rem;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.storySection img {
+    width: 70px;
+    border-radius: 200px;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 254, 254);
+    padding: 5px;
+}
+
+.PersonProfile{
+    width: 24.438rem;
+    height: 50vh;
+    background-color: yellow;
+}
+
+.reels {
+    width: 39.375rem;
+    height: 84vh;
+    background-color: cadetblue;
+
 }
